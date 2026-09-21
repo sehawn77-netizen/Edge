@@ -3,7 +3,7 @@
 <AlexNet_file, MobileNet_file>
 하드웨어 리소스(CPU/GPU) 제한 상태에서의 추론 성능 측정용 파일입니다.
 
-- train.py: Pytorch 기반의 AI 모델 학습 스크립트.
+- train.py: Tensorflow 기반의 AI 모델 학습 스크립트.
 AlexNet 및 MobileNetV2 모델을 CIFAR-10 데이터셋에 최적화하여 학습시키는 과정을 담고 있습니다.
 
 - eval.py: 하드웨어 리소스 제약 조건에 따른 추론 성능(Inference Performance) 측정 스크립트.
